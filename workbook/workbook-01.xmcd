@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest 1c5577b7f9cb0dc20085ef39af1b8cc7?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>user</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>user</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>1</revision>
+			<documentID>3D268D99-571C-44A1-B487-9A7C0530E908</documentID>
+			<versionID>C779F87B-C7C5-4319-AF86-4883B913D5EE</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="true" show-header-frame="true" show-footer-frame="true" header-footer-start-page="1" paper-code="8" orientation="portrait" print-single-page-width="false" page-width="841.5" page-height="1190.25">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="true">
+					<left>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\fs18 ___ design T-Girder ____\par
+}</left>
+				</header>
+				<footer use-full-page-width="true"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="true" ruler-unit="in">
+				<tabs>
+					<tab show-guide="false" position="31.5"/>
+					<tab show-guide="false" position="40.5"/>
+					<tab show-guide="false" position="63"/>
+					<tab show-guide="false" position="76.5"/>
+					<tab show-guide="false" position="94.5"/>
+					<tab show-guide="false" position="108"/>
+					<tab show-guide="false" position="130.5"/>
+					<tab show-guide="false" position="135"/>
+					<tab show-guide="false" position="139.5"/>
+					<tab show-guide="false" position="162"/>
+					<tab show-guide="false" position="202.5"/>
+					<tab show-guide="false" position="252"/>
+					<tab show-guide="false" position="270"/>
+					<tab show-guide="false" position="463.5"/>
+				</tabs>
+			</ruler>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="23760" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="2398" left="6" top="8.25" width="682.5" height="12" align-x="9" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="11">
+						<c val="#f00">__________________________Design Data and Specifications__________________________________________________________</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="23701" left="0" top="45" width="6008.25" align-x="0" align-y="45" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="380.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="1999" bottom-lock-id="2000">
+				<region region-id="23351" left="6" top="27" width="355.5" height="14.25" align-x="18" align-y="38.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>
+									<u>1.1 Material Properties </u>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23332" left="6" top="111" width="355.5" height="14.25" align-x="18" align-y="122.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>
+									<u>1.2 Bridge Span and Support Dimensions</u>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23349" left="6" top="213" width="355.5" height="14.25" align-x="18" align-y="224.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>
+									<u>1.3 Reinforcement Sizes</u>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23346" left="6" top="315" width="355.5" height="14.25" align-x="18" align-y="326.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>
+									<u>** Design Method: LRFD </u>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+			</area>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="23691" left="6" top="86.25" width="694.5" height="12" align-x="9" align-y="96" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+					<f size="11">
+						<c val="#f00">____________________________Deck Design _______________________________________________________________________</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="23692" left="6" top="104.25" width="748.5" height="12" align-x="51" align-y="114" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="11">
+						<c val="#800080">______________________________Dead Load _______________________________________________________________________</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="23759" left="0" top="147" width="6008.25" align-x="0" align-y="147" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="1772.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="22502" bottom-lock-id="1747">
+				<region region-id="1908" left="6" top="15" width="306.75" height="14.25" align-x="18" align-y="26.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.1<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="1909" left="6" top="40.5" width="345" height="12" align-x="18" align-y="50.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.1.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="1910" left="66" top="58.5" width="198.75" height="12" align-x="80.25" align-y="68.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="inherit" tabs="inherit">vertical alignment geometry is straight sloped.</p>
+					</text>
+				</region>
+				<region region-id="23354" left="396" top="102.75" width="2.25" height="12.75" align-x="396" align-y="111.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:id xml:space="preserve" xmlns:ml="http://schemas.mathsoft.com/math30">'</ml:id>
+					</math>
+				</region>
+				<region region-id="23370" left="6" top="124.5" width="306.75" height="14.25" align-x="18" align-y="135.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.2<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23707" left="6" top="184.5" width="345" height="12" align-x="18" align-y="194.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23708" left="6" top="232.5" width="345" height="12" align-x="18" align-y="242.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23709" left="6" top="316.5" width="345" height="12" align-x="18" align-y="326.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23732" left="6" top="346.5" width="345" height="12" align-x="18" align-y="356.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23733" left="6" top="400.5" width="345" height="12" align-x="18" align-y="410.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23734" left="6" top="448.5" width="345" height="12" align-x="18" align-y="458.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23735" left="6" top="502.5" width="345" height="12" align-x="18" align-y="512.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23738" left="6" top="538.5" width="345" height="12" align-x="18" align-y="548.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>2.2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23376" left="6" top="592.5" width="306.75" height="14.25" align-x="18" align-y="603.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.4 Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23382" left="6" top="168" width="345" height="12" align-x="18" align-y="177.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.2.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23383" left="6" top="294" width="345" height="12" align-x="18" align-y="303.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23387" left="6" top="636" width="345" height="12" align-x="18" align-y="645.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.1) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23388" left="6" top="690" width="345" height="12" align-x="18" align-y="699.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23392" left="6" top="766.5" width="306.75" height="14.25" align-x="18" align-y="777.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.5 Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23403" left="6" top="808.5" width="306.75" height="14.25" align-x="18" align-y="819.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.6<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23408" left="6" top="916.5" width="306.75" height="14.25" align-x="18" align-y="927.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.7<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23739" left="6" top="946.5" width="345" height="12" align-x="18" align-y="956.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23742" left="6" top="970.5" width="345" height="12" align-x="18" align-y="980.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23749" left="6" top="1024.5" width="345" height="12" align-x="18" align-y="1034.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23750" left="6" top="1138.5" width="345" height="12" align-x="18" align-y="1148.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23751" left="6" top="1192.5" width="345" height="12" align-x="18" align-y="1202.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23752" left="6" top="1102.5" width="345" height="12" align-x="18" align-y="1112.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23753" left="6" top="1240.5" width="345" height="12" align-x="18" align-y="1250.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23754" left="6" top="1288.5" width="345" height="12" align-x="18" align-y="1298.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23755" left="6" top="1336.5" width="345" height="12" align-x="18" align-y="1346.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>2.3.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23756" left="6" top="1366.5" width="345" height="12" align-x="18" align-y="1376.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23757" left="6" top="1408.5" width="345" height="12" align-x="18" align-y="1418.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23758" left="6" top="1462.5" width="345" height="12" align-x="18" align-y="1472.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>
+									<tab/>
+									<tab/>2.2.2.2) Deck Thickness<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23419" left="6" top="1510.5" width="306.75" height="14.25" align-x="18" align-y="1521.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.8<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23420" left="6" top="1648.5" width="306.75" height="14.25" align-x="18" align-y="1659.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.9<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23421" left="6" top="1684.5" width="306.75" height="14.25" align-x="18" align-y="1695.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>2.10<sp count="2"/>Typical Section<sp count="54"/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+			</area>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="23646" left="6" top="206.25" width="677.25" height="12" align-x="6" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="11">
+						<c val="#f00">___________________<sp count="3"/>Abutment design<sp count="2"/>___________________________________________________________________________</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="23760" left="0" top="237" width="6008.25" align-x="0" align-y="237" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="1232.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="2433" bottom-lock-id="2434">
+				<region region-id="2435" left="6" top="21" width="639" height="14.25" align-x="18" align-y="32.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>Enter Preliminary Dimensions and Material Properties<sp count="40"/>
+								</b>
+							</f>
+							<f size="12">
+								<b>
+									<sp/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23577" left="6" top="78" width="639" height="14.25" align-x="18" align-y="89.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>Calculations<sp count="40"/>
+								</b>
+							</f>
+							<f size="12">
+								<b>
+									<sp/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23576" left="6" top="132" width="316.5" height="14.25" align-x="18" align-y="143.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>3.3.2 Deck slab design<sp count="40"/>
+								</b>
+							</f>
+							<f size="12">
+								<b>
+									<sp/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23579" left="6" top="161.25" width="324" height="12" align-x="18" align-y="171" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23581" left="6" top="203.25" width="324" height="12" align-x="18" align-y="213" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23592" left="6" top="245.25" width="324" height="12" align-x="18" align-y="255" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23594" left="6" top="293.25" width="324" height="12" align-x="18" align-y="303" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23578" left="6" top="360" width="316.5" height="14.25" align-x="18" align-y="371.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>3.3.2 Deck slab design<sp count="40"/>
+								</b>
+							</f>
+							<f size="12">
+								<b>
+									<sp/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23580" left="6" top="401.25" width="324" height="12" align-x="18" align-y="411" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23595" left="6" top="473.25" width="324" height="12" align-x="18" align-y="483" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23600" left="6" top="521.25" width="324" height="12" align-x="18" align-y="531" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23601" left="6" top="569.25" width="324" height="12" align-x="18" align-y="579" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23602" left="6" top="623.25" width="324" height="12" align-x="18" align-y="633" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23603" left="6" top="695.25" width="324" height="12" align-x="18" align-y="705" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23604" left="6" top="743.25" width="324" height="12" align-x="18" align-y="753" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23605" left="6" top="791.25" width="324" height="12" align-x="18" align-y="801" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23606" left="6" top="845.25" width="324" height="12" align-x="18" align-y="855" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23607" left="6" top="893.25" width="324" height="12" align-x="18" align-y="903" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23608" left="6" top="933.75" width="316.5" height="14.25" align-x="18" align-y="945" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="12">
+								<b>3.3.3 Deck slab design<sp count="40"/>
+								</b>
+							</f>
+							<f size="12">
+								<b>
+									<sp/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23609" left="6" top="983.25" width="324" height="12" align-x="18" align-y="993" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23614" left="6" top="1043.25" width="324" height="12" align-x="18" align-y="1053" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+				<region region-id="23612" left="6" top="1103.25" width="324" height="12" align-x="18" align-y="1113" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="11">
+								<b>
+									<tab/>1) Railing load<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+									<tab/>
+								</b>
+							</f>
+						</p>
+					</text>
+				</region>
+			</area>
+			<rendering item-idref="4"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQwW7CMAyG7aZbS9etu3AhSOUZeIIdENph2iT2ACiUAkVUTF2ROPLm3W8n
+u+w0R3b+Ot/vRsmJiJGfyEy1QS228/W+c1+H9e7cta5PSGKMHGl74XqnLZog07b62Bzrqvet
+ld8omqGYMF+8hWr5yty1+V7q6FjZKfKNA+tjwCKe/r/7OzzpO1fV84XRIxvAkp+JLQ+imG0E
+U8kRWwNryYZtPEgnBkMDxB2Y2wuO7oURV6IMRCqMwCOZI/YMjNofwKg9B6P2R/0XxJMyEIUw
+AvvrFu+Xtu6ayp38g6R67VfklhosE14uC6/5J3IpPwAAAP//AwARvY6sxgEAAA==</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH1SURBVHhe7d1BCsNADARBPX1/vk4O
+AoFnwfExVEGD0CemPvbTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFo9HUE3lg4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMxtIBAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACAV25j6adRdGPpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBTH0tMw
+urF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDqOpac/AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAQKs0ij5rfa+1JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJP1pv6g5iP7VI+npDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAANAqjaKnYXRj6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAUx9ITY+kAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdBtLPzGWDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAEzG0gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAX9r4AjWeEBz4Z
+ahkAAAAASUVORK5CYII=</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH1SURBVHhe7d1BCsNADARBPX1/vk4O
+AoFnwfExVEGD0CemPvbTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFo9HUE3lg4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMxtIBAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACAV25j6adRdGPpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBTH0tMw
+urF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDqOpac/AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAQKs0ij5rfa+1JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJP1pv6g5iP7VI+npDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAANAqjaKnYXRj6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAUx9ITY+kAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdBtLPzGWDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAEzG0gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAX9r4AjWeEBz4Z
+ahkAAAAASUVORK5CYII=</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH1SURBVHhe7d1BCsNADARBPX1/vk4O
+AoFnwfExVEGD0CemPvbTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFo9HUE3lg4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMxtIBAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACAV25j6adRdGPpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBTH0tMw
+urF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDqOpac/AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAQKs0ij5rfa+1JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJP1pv6g5iP7VI+npDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAANAqjaKnYXRj6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAUx9ITY+kAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdBtLPzGWDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAEzG0gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAX9r4AjWeEBz4Z
+ahkAAAAASUVORK5CYII=</item>
+	</binaryContent>
+</worksheet>
